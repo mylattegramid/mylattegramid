@@ -89,7 +89,9 @@
   thumbButtons.forEach(function (btn) {
     btn.addEventListener('click', function () {
       if (!galleryMainImg) return;
-      const nextSrc = btn.getAttribute('data-src') || '';
+      const thumbImg = btn.querySelector('img');
+      const nextSrc =
+        (thumbImg && thumbImg.getAttribute('src')) || btn.getAttribute('data-src') || '';
       const nextAlt = btn.getAttribute('data-alt') || '';
       const nextKicker = btn.getAttribute('data-kicker') || '';
       const nextTitle = btn.getAttribute('data-title') || '';
