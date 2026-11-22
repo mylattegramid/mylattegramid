@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- ================= SEO META TAGS ================= -->
+  <title>Mylattegram — Kopi Susu Bapak | Coffee is a Hug in a Mug</title>
+  <meta name="description" content="Nikmati Kopi Susu Bapak dari Mylattegram. Perpaduan espresso pilihan, susu segar creamy, dan gula aren autentik dalam kemasan praktis 250ml & 1 Liter. Halal, tanpa pengawet, siap minum kapan saja." />
+  <meta name="keywords" content="Kopi Susu Bapak, Mylattegram, kopi susu botol 1 liter, kopi susu kekinian, kopi susu gula aren, kopi siap minum halal" />
+  <meta name="author" content="Mylattegram Indonesia" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://mylattegram.id/" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="Mylattegram — Kopi Susu Bapak | Coffee is a Hug in a Mug" />
+  <meta property="og:description" content="Kehangatan rumah dalam setiap tegukan. Tersedia kemasan botol 250ml & 1 Liter. Pesan segar setiap hari!" />
+  <meta property="og:image" content="https://mylattegram.id/kopi-susu-bapak-studio.jpg" />
+  <meta property="og:url" content="https://mylattegram.id/" />
+  <meta property="og:locale" content="id_ID" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mylattegram — Kopi Susu Bapak" />
+  <meta name="twitter:description" content="Coffee is a hug in a mug. Kopi susu creamy & autentik kemasan 250ml dan 1 Liter." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            espresso: {
+              950: '#23150D',
+              900: '#311E13',
+              800: '#452B1C',
+              700: '#5E3D29',
+            },
+            latte: {
+              50: '#FDFBF7',
+              100: '#F6EFE4',
+              200: '#EBDCCB',
+              300: '#D9C2A7',
+            },
+            caramel: {
+              400: '#D4A359',
+              500: '#B8843B',
+              600: '#9A6B29',
+            }
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- ================= AEO & GEO SCHEMA (JSON-LD) ================= -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Brand",
+        "@id": "https://mylattegram.id/#brand",
+        "name": "Mylattegram",
+        "slogan": "Coffee is a hug in a mug",
+        "description": "Mylattegram adalah merek minuman kopi susu siap saji asal Indonesia yang memadukan cita rasa kopi Nusantara dengan kelembutan susu segar untuk menemani momen hangat bersama keluarga."
+      },
+      {
+        "@type": "Product",
+        "@id": "https://mylattegram.id/#product",
+        "name": "Kopi Susu Bapak - Mylattegram",
+        "image": [
+          "https://mylattegram.id/kopi-susu-bapak-studio.jpg",
+          "https://mylattegram.id/kopi-susu-bapak-produk.jpg",
+          "https://mylattegram.id/kopi-susu-bapak-banner.jpg"
+        ],
+        "description": "Kopi Susu Bapak oleh Mylattegram adalah minuman kopi susu siap minum (ready-to-drink) berbahan dasar biji kopi Arabika-Robusta pilihan, susu segar creamy, dan pemanis alami tanpa bahan pengawet.",
+        "brand": { "@id": "https://mylattegram.id/#brand" },
+        "category": "Minuman Kopi Siap Saji",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Kopi Susu Bapak Kemasan Personal 250ml",
+            "price": "22000",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Kopi Susu Bapak Kemasan Keluarga 1 Liter",
+            "price": "78000",
+            "priceCurrency": "IDR",
+            "availability": "https://schema.org/InStock"
+          }
+        ],
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "428"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://mylattegram.id/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Apa itu Kopi Susu Bapak dari Mylattegram?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kopi Susu Bapak adalah produk unggulan Mylattegram berupa kopi susu siap minum dengan perpaduan seimbang antara espresso house blend, susu segar yang creamy, dan rasa manis lembut yang nyaman dinikmati hangat maupun dingin."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Berapa lama daya tahan simpan Kopi Susu Bapak?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Karena dibuat segar setiap hari tanpa bahan pengawet, Kopi Susu Bapak bertahan hingga 5-7 hari di dalam lemari pendingin (chiller suhu 2-4°C) dalam kondisi tersegel, dan sebaiknya dihabiskan dalam 24 jam setelah segel dibuka."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Apakah Kopi Susu Bapak Halal dan aman untuk lambung?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ya, seluruh bahan baku Kopi Susu Bapak bersertifikasi Halal dan diproses secara higienis. Takaran susunya yang lembut membantu menetralkan keasaman kopi sehingga lebih ramah di lambung saat diminum."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Ukuran kemasan apa saja yang tersedia untuk Kopi Susu Bapak?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kopi Susu Bapak tersedia dalam dua pilihan ukuran botol praktis: ukuran 250ml untuk konsumsi personal sekali minum, dan ukuran 1 Liter (1000ml) yang cocok untuk stok di rumah, kantor, atau dinikmati bersama keluarga."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .bg-coffee-gradient {
+      background: radial-gradient(circle at top right, #452B1C 0%, #23150D 75%);
+    }
+    .glass-nav {
+      background: rgba(35, 21, 13, 0.85);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    details > summary { list-style: none; }
+    details > summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+
+<body class="bg-latte-50 text-espresso-950 font-sans antialiased selection:bg-caramel-400 selection:text-espresso-950">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="fixed top-0 inset-x-0 z-50 glass-nav border-b border-latte-100/10 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="#" class="flex items-center gap-2.5 group" aria-label="Beranda Mylattegram">
+          <div class="w-9 h-9 rounded-full bg-caramel-400/20 border border-caramel-400/50 flex items-center justify-center text-caramel-400 group-hover:scale-105 transition">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 2v3M10 2v3M14 2v3" />
+            </svg>
+          </div>
+          <span class="font-serif italic text-xl font-bold text-latte-100 tracking-wide">Mylattegram</span>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-latte-200" aria-label="Navigasi Utama">
+          <a href="#tentang" class="hover:text-caramel-400 transition">Keunggulan</a>
+          <a href="#varian" class="hover:text-caramel-400 transition">Produk & Harga</a>
+          <a href="#spesifikasi" class="hover:text-caramel-400 transition">Detail Produk</a>
+          <a href="#faq" class="hover:text-caramel-400 transition">Tanya Jawab</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="#varian" class="hidden sm:inline-flex items-center gap-2 bg-caramel-500 hover:bg-caramel-400 text-espresso-950 font-bold text-sm px-5 py-2.5 rounded-full transition shadow-lg shadow-caramel-500/20">
+            Pesan Sekarang
+          </a>
+          <button id="mobile-menu-btn" class="md:hidden text-latte-100 p-2 rounded-lg hover:bg-white/10" aria-label="Buka Menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-espresso-900 border-t border-white/10 px-4 py-4 space-y-3 text-latte-100">
+      <a href="#tentang" class="block py-2 hover:text-caramel-400">Keunggulan</a>
+      <a href="#varian" class="block py-2 hover:text-caramel-400">Produk & Harga</a>
+      <a href="#spesifikasi" class="block py-2 hover:text-caramel-400">Detail Produk</a>
+      <a href="#faq" class="block py-2 hover:text-caramel-400">Tanya Jawab</a>
+      <a href="#varian" class="block text-center bg-caramel-500 text-espresso-950 font-bold py-2.5 rounded-full mt-2">Pesan Sekarang</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-coffee-gradient text-latte-100 overflow-hidden">
+      <div class="absolute -top-24 -right-24 w-96 h-96 bg-caramel-500/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute bottom-0 left-0 w-72 h-72 bg-caramel-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          
+          <div class="lg:col-span-6 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-latte-100/10 border border-latte-100/20 text-caramel-400 text-xs font-semibold tracking-wider uppercase">
+              <span>☕ Signature Blend</span>
+              <span>•</span>
+              <span>Halal & Freshly Brewed</span>
+            </div>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.12] text-latte-50">
+              Coffee is a <span class="text-caramel-400 font-serif italic font-semibold">hug in a mug</span>.
+            </h1>
+
+            <p class="text-base sm:text-lg text-latte-200 leading-relaxed max-w-xl mx-auto lg:mx-0">
+              Temukan kehangatan rumah di setiap tegukan <strong class="text-latte-50">Kopi Susu Bapak</strong> dari Mylattegram. Perpaduan espresso pilihan dan susu segar yang <em>creamy</em>, diracik penuh cinta untuk menemani hari Anda.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+              <a href="#varian" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-caramel-500 hover:bg-caramel-400 text-espresso-950 font-bold px-7 py-3.5 rounded-full transition shadow-xl shadow-caramel-500/20 text-base">
+                Lihat Galeri & Pesan
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+                </svg>
+              </a>
+              <a href="#cara-saji" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-latte-200/30 hover:border-caramel-400 text-latte-100 hover:text-caramel-400 font-semibold px-7 py-3.5 rounded-full transition text-base">
+                Cara Penyajian
+              </a>
+            </div>
+
+            <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs sm:text-sm text-latte-300 border-t border-white/10">
+              <div class="flex items-center gap-2">
+                <span class="text-caramel-400 font-bold">★ 4.9/5</span> (400+ Ulasan)
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-caramel-400">✓</span> 100% Tanpa Pengawet
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-caramel-400">✓</span> Kirim Hari Ini
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Banner Image (Gambar 1) -->
+          <div class="lg:col-span-6">
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-latte-100/15 bg-espresso-900">
+              <img 
+                src="kopi-susu-bapak-banner.jpg" 
+                onerror="this.src='kopi-susu-bapak-studio.jpg';"
+                alt="Banner Kopi Susu Bapak Mylattegram Coffee is a hug in a mug" 
+                class="w-full h-auto object-cover aspect-[16/10]"
+                loading="eager"
+              />
+              <div class="absolute bottom-4 left-4 right-4 sm:right-auto bg-espresso-950/85 backdrop-blur-md border border-latte-100/15 rounded-2xl p-3.5 flex items-center gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-caramel-500 text-espresso-950 font-extrabold flex items-center justify-center shrink-0">
+                  2in1
+                </div>
+                <div>
+                  <p class="text-xs font-bold text-latte-50">Tersedia 250ml & 1 Liter</p>
+                  <p class="text-[11px] text-latte-300">Nikmat disajikan dingin dengan es atau hangat</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VALUE PROPOSITION ================= -->
+    <section id="tentang" class="py-16 md:py-24 bg-latte-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-caramel-600 font-bold text-xs uppercase tracking-widest">Kenapa Kopi Susu Bapak?</span>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-espresso-950">Racikan Klasik yang Selalu Dirindukan</h2>
+          <p class="mt-3 text-espresso-700">Bukan sekadar kopi susu biasa, setiap botol diracik dengan standar kafe agar rasa konsisten dari tegukan pertama hingga terakhir.</p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <article class="bg-white p-7 rounded-2xl border border-latte-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-latte-100 text-espresso-900 flex items-center justify-center mb-5 text-2xl">🌱</div>
+            <h3 class="text-lg font-bold text-espresso-950">Biji Kopi Nusantara</h3>
+            <p class="mt-2 text-sm text-espresso-700 leading-relaxed">Menggunakan <em>house blend</em> Arabika dan Robusta sangrai segar untuk aroma cokelat-karamel yang kaya.</p>
+          </article>
+          <article class="bg-white p-7 rounded-2xl border border-latte-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-latte-100 text-espresso-900 flex items-center justify-center mb-5 text-2xl">🥛</div>
+            <h3 class="text-lg font-bold text-espresso-950">Creamy & Ramah Lambung</h3>
+            <p class="mt-2 text-sm text-espresso-700 leading-relaxed">Rasio susu segar yang seimbang membuat tekstur lembut di mulut dan nyaman di lambung.</p>
+          </article>
+          <article class="bg-white p-7 rounded-2xl border border-latte-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-latte-100 text-espresso-900 flex items-center justify-center mb-5 text-2xl">❄️</div>
+            <h3 class="text-lg font-bold text-espresso-950">Nikmat Panas & Dingin</h3>
+            <p class="mt-2 text-sm text-espresso-700 leading-relaxed">Fleksibel dinikmati langsung dari kulkas, dituang ke es batu, atau dihangatkan di mug favorit.</p>
+          </article>
+          <article class="bg-white p-7 rounded-2xl border border-latte-200 shadow-sm hover:shadow-md transition">
+            <div class="w-12 h-12 rounded-xl bg-latte-100 text-espresso-900 flex items-center justify-center mb-5 text-2xl">🛡️</div>
+            <h3 class="text-lg font-bold text-espresso-950">Halal & Tanpa Pengawet</h3>
+            <p class="mt-2 text-sm text-espresso-700 leading-relaxed">Diseduh segar sesuai pesanan (<em>made to order</em>) dengan kemasan botol food-grade tersegel rapat.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALERI FOTO PRODUK & PILIHAN KEMASAN ================= -->
+    <section id="varian" class="py-16 md:py-24 bg-latte-100 border-y border-latte-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-14">
+          <span class="text-caramel-600 font-bold text-xs uppercase tracking-widest">Produk Resmi Mylattegram</span>
+          <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-espresso-950">Kopi Susu Bapak — Siap Temani Momen Anda</h2>
+          <p class="mt-3 text-espresso-700">Klik foto di galeri untuk melihat detail kemasan botol, atur jumlah pesanan, dan langsung kirim ke WhatsApp.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+          
+          <!-- GALERI FOTO PRODUK INTERAKTIF (3 FOTO) -->
+          <div class="lg:col-span-5 space-y-4">
+            <!-- Main Viewer -->
+            <figure class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-espresso-900">
+              <img 
+                id="main-product-img"
+                src="kopi-susu-bapak-studio.jpg" 
+                onerror="this.classList.add('hidden'); document.getElementById('fallback-produk').classList.remove('hidden');"
+                alt="Foto studio botol Kopi Susu Bapak Mylattegram dengan label resmi dan sertifikasi halal" 
+                class="w-full h-auto object-cover aspect-[3/4] transition-opacity duration-200"
+                loading="lazy"
+              />
+              <!-- Fallback jika file lokal belum ada -->
+              <div id="fallback-produk" class="hidden aspect-[3/4] p-8 flex flex-col items-center justify-center text-center bg-espresso-900 text-latte-100">
+                <span class="text-4xl mb-3">📸</span>
+                <p class="font-bold text-lg">Foto Produk Belum Terpasang</p>
+                <p class="text-xs text-latte-300 mt-2">Simpan gambar dengan nama <code id="missing-filename" class="text-caramel-400">kopi-susu-bapak-studio.jpg</code> di folder yang sama dengan file HTML ini.</p>
+              </div>
+
+              <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-espresso-950 via-espresso-950/80 to-transparent p-6 pt-16">
+                <span class="inline-block px-3 py-1 rounded-full bg-caramel-500 text-espresso-950 text-[11px] font-extrabold uppercase tracking-wider mb-2">
+                  Ready to Drink • Fresh Daily
+                </span>
+                <p id="gallery-caption-title" class="text-latte-50 font-bold text-lg leading-snug">Kemasan Botol Segel Higienis</p>
+                <p id="gallery-caption-desc" class="text-latte-200 text-xs mt-1">Botol food-grade dengan label resmi Mylattegram & jaminan bahan halal.</p>
+              </figcaption>
+            </figure>
+
+            <!-- Thumbnail Switcher -->
+            <div class="grid grid-cols-3 gap-3" role="group" aria-label="Galeri Foto Produk Kopi Susu Bapak">
+              <!-- Thumb 1: Studio (Gambar 3 terbaru) -->
+              <button 
+                type="button" 
+                onclick="switchProductImage('kopi-susu-bapak-studio.jpg', 'Foto studio botol Kopi Susu Bapak Mylattegram', 'Kemasan Botol Segel Higienis', 'Botol food-grade dengan label resmi Mylattegram & jaminan bahan halal.', this)"
+                class="gallery-thumb ring-2 ring-caramel-500 opacity-100 rounded-2xl overflow-hidden bg-espresso-900 border-2 border-white shadow-sm transition text-left relative group"
+              >
+                <img src="kopi-susu-bapak-studio.jpg" alt="Thumbnail foto studio botol Kopi Susu Bapak" class="w-full h-20 object-cover" />
+                <span class="block text-[11px] font-bold text-center py-1 bg-white text-espresso-950">Foto Botol</span>
+              </button>
+
+              <!-- Thumb 2: Lifestyle (Gambar 2) -->
+              <button 
+                type="button" 
+                onclick="switchProductImage('kopi-susu-bapak-produk.jpg', 'Foto lifestyle Kopi Susu Bapak 1 liter dengan segelas es kopi susu', 'Hangatnya Kebersamaan di Rumah', 'Sajikan dingin dengan es batu untuk rasa creamy yang maksimal.', this)"
+                class="gallery-thumb opacity-65 hover:opacity-100 rounded-2xl overflow-hidden bg-espresso-900 border-2 border-white shadow-sm transition text-left relative group"
+              >
+                <img src="kopi-susu-bapak-produk.jpg" alt="Thumbnail foto penyajian Kopi Susu Bapak dengan es" class="w-full h-20 object-cover" />
+                <span class="block text-[11px] font-bold text-center py-1 bg-white text-espresso-950">Sajian Es</span>
+              </button>
+
+              <!-- Thumb 3: Banner 2in1 (Gambar 1) -->
+              <button 
+                type="button" 
+                onclick="switchProductImage('kopi-susu-bapak-banner.jpg', 'Perbandingan ukuran botol 1 liter dan 250ml Kopi Susu Bapak', 'Tersedia 1 Liter & 250 ml', 'Bisa dinikmati dingin menyegarkan atau hangat dalam mug favorit.', this)"
+                class="gallery-thumb opacity-65 hover:opacity-100 rounded-2xl overflow-hidden bg-espresso-900 border-2 border-white shadow-sm transition text-left relative group"
+              >
+                <img src="kopi-susu-bapak-banner.jpg" alt="Thumbnail ukuran kemasan 1 liter dan 250ml" class="w-full h-20 object-cover" />
+                <span class="block text-[11px] font-bold text-center py-1 bg-white text-espresso-950">2 Ukuran</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- KARTU PILIHAN KEMASAN & ORDER -->
+          <div class="lg:col-span-7 space-y-6">
+            
+            <!-- Produk 1: 1 Liter (Best Value) -->
+            <div class="bg-espresso-900 text-latte-50 rounded-3xl p-7 sm:p-8 border-2 border-caramel-500 shadow-xl relative">
+              <div class="absolute -top-3.5 right-6 bg-caramel-500 text-espresso-950 text-xs font-extrabold px-4 py-1 rounded-full uppercase tracking-wider shadow">
+                Paling Laris • Hemat 29%
+              </div>
+
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <span class="px-3 py-1 rounded-full bg-white/10 text-caramel-400 text-xs font-bold">Kemasan Keluarga / Stok (4–5 Gelas)</span>
+                  <h3 class="mt-3 text-2xl font-extrabold text-white">Kopi Susu Bapak — 1 Liter</h3>
+                  <p class="mt-1.5 text-sm text-latte-200">Persis seperti di foto utama! Pas untuk stok kulkas di rumah atau dinikmati bersama keluarga.</p>
+                </div>
+                <div class="sm:text-right shrink-0">
+                  <div class="text-3xl font-extrabold text-caramel-400">Rp 78.000</div>
+                  <div class="text-xs text-latte-300 line-through">Rp 88.000</div>
+                </div>
+              </div>
+
+              <ul class="mt-5 grid sm:grid-cols-2 gap-2 text-xs sm:text-sm text-latte-200 border-t border-white/10 pt-4">
+                <li class="flex items-center gap-2"><span class="text-caramel-400 font-bold">✓</span> Isi penuh 1000 ml segel higienis</li>
+                <li class="flex items-center gap-2"><span class="text-caramel-400 font-bold">✓</span> Tahan 5–7 hari di kulkas</li>
+              </ul>
+
+              <div class="mt-6 pt-5 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center border border-white/20 rounded-full px-2 py-1 bg-white/5">
+                  <button type="button" onclick="updateQty('1L', -1)" class="w-9 h-9 rounded-full hover:bg-white/10 font-bold text-white" aria-label="Kurangi jumlah 1 Liter">-</button>
+                  <span id="qty-1L" class="w-10 text-center font-bold text-white">1</span>
+                  <button type="button" onclick="updateQty('1L', 1)" class="w-9 h-9 rounded-full hover:bg-white/10 font-bold text-white" aria-label="Tambah jumlah 1 Liter">+</button>
+                </div>
+                <button type="button" onclick="orderWhatsApp('1L')" class="flex-1 min-w-[200px] bg-caramel-500 hover:bg-caramel-400 text-espresso-950 font-extrabold py-3.5 px-6 rounded-full transition text-sm sm:text-base shadow-lg shadow-caramel-500/20">
+                  Pesan Kemasan 1 Liter via WA →
+                </button>
+              </div>
+            </div>
+
+            <!-- Produk 2: 250 ml -->
+            <div class="bg-white rounded-3xl p-7 sm:p-8 border border-latte-200 shadow-sm">
+              <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                  <span class="px-3 py-1 rounded-full bg-latte-100 text-espresso-800 text-xs font-bold">Kemasan Personal (1 Gelas)</span>
+                  <h3 class="mt-3 text-2xl font-extrabold text-espresso-950">Kopi Susu Bapak — 250 ml</h3>
+                  <p class="mt-1.5 text-sm text-espresso-700">Praktis dibawa beraktivitas ke kantor, kampus, atau perjalanan.</p>
+                </div>
+                <div class="sm:text-right shrink-0">
+                  <div class="text-3xl font-extrabold text-espresso-950">Rp 22.000</div>
+                  <div class="text-xs text-espresso-700">/ botol</div>
+                </div>
+              </div>
+
+              <ul class="mt-5 grid sm:grid-cols-2 gap-2 text-xs sm:text-sm text-espresso-800 border-t border-latte-100 pt-4">
+                <li class="flex items-center gap-2"><span class="text-caramel-600 font-bold">✓</span> Botol ringkas 250 ml siap minum</li>
+                <li class="flex items-center gap-2"><span class="text-caramel-600 font-bold">✓</span> Level manis & kopi seimbang</li>
+              </ul>
+
+              <div class="mt-6 pt-5 border-t border-latte-100 flex flex-wrap items-center justify-between gap-4">
+                <div class="flex items-center border border-latte-300 rounded-full px-2 py-1">
+                  <button type="button" onclick="updateQty('250ml', -1)" class="w-9 h-9 rounded-full hover:bg-latte-100 font-bold text-espresso-900" aria-label="Kurangi jumlah 250ml">-</button>
+                  <span id="qty-250ml" class="w-10 text-center font-bold text-espresso-950">1</span>
+                  <button type="button" onclick="updateQty('250ml', 1)" class="w-9 h-9 rounded-full hover:bg-latte-100 font-bold text-espresso-900" aria-label="Tambah jumlah 250ml">+</button>
+                </div>
+                <button type="button" onclick="orderWhatsApp('250ml')" class="flex-1 min-w-[200px] bg-espresso-900 hover:bg-espresso-800 text-latte-50 font-bold py-3.5 px-6 rounded-full transition text-sm sm:text-base">
+                  Pesan Kemasan 250 ml via WA →
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CARA PENYAJIAN & FACT SHEET (GEO FRIENDLY) ================= -->
+    <section id="spesifikasi" class="py-16 md:py-24 bg-latte-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-start">
+          
+          <div id="cara-saji" class="lg:col-span-6 space-y-6">
+            <span class="text-caramel-600 font-bold text-xs uppercase tracking-widest">Saran Penyajian</span>
+            <h2 class="text-3xl font-extrabold text-espresso-950">Dua Cara Menikmati Kopi Susu Bapak</h2>
+            <p class="text-espresso-700 text-sm sm:text-base">Kocok botol perlahan terlebih dahulu agar ekstrak kopi dan susu tercampur sempurna sebelum dituang.</p>
+
+            <div class="space-y-4 pt-2">
+              <div class="p-5 rounded-2xl bg-white border border-latte-200 flex gap-4">
+                <div class="w-12 h-12 rounded-xl bg-latte-100 flex items-center justify-center text-2xl shrink-0">🧊</div>
+                <div>
+                  <h3 class="font-bold text-espresso-950">Sajian Dingin (Iced Latte Style)</h3>
+                  <p class="text-sm text-espresso-700 mt-1">Siapkan gelas berisi es batu secukupnya, tuangkan 200 ml Kopi Susu Bapak. Rasa manis dan <em>creamy</em> tetap kuat tanpa terasa hambar.</p>
+                </div>
+              </div>
+
+              <div class="p-5 rounded-2xl bg-white border border-latte-200 flex gap-4">
+                <div class="w-12 h-12 rounded-xl bg-latte-100 flex items-center justify-center text-2xl shrink-0">☕</div>
+                <div>
+                  <h3 class="font-bold text-espresso-950">Sajian Hangat (Hug in a Mug)</h3>
+                  <p class="text-sm text-espresso-700 mt-1">Tuang ke dalam mug tahan panas, lalu hangatkan menggunakan microwave selama 45–60 detik (atau panaskan sebentar di panci tanpa mendidih).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6 bg-white rounded-3xl p-6 sm:p-8 border border-latte-200 shadow-sm">
+            <h3 class="text-xl font-extrabold text-espresso-950 mb-1">Ringkasan Informasi Produk</h3>
+            <p class="text-xs text-espresso-700 mb-6">Spesifikasi resmi produk Mylattegram — Kopi Susu Bapak</p>
+
+            <div class="overflow-x-auto">
+              <table class="w-full text-sm text-left border-collapse">
+                <tbody class="divide-y divide-latte-200">
+                  <tr>
+                    <th class="py-3 pr-4 font-semibold text-espresso-800 w-2/5">Merek / Produsen</th>
+                    <td class="py-3 text-espresso-950 font-medium">Mylattegram</td>
+                  </tr>
+                  <tr>
+                    <th class="py-3 pr-4 font-semibold text-espresso-800">Nama Varian</th>
+                    <td class="py-3 text-espresso-950">Kopi Susu Bapak (Signature)</td>
+                  </tr>
+                  <tr>
+                    <th class="py-3 pr-4 font-semibold text-espresso-800">Komposisi Utama</th>
+                    <td class="py-3 text-espresso-950">Espresso House Blend (Arabika & Robusta), Susu Segar, Krimer Nabati, Gula Aren/Pemanis Alami</td>
+                  </tr>
+                  <tr>
+                    <th class="py-3 pr-4 font-semibold text-espresso-800">Pilihan Kemasan</th>
+                    <td class="py-3 text-espresso-950">Botol 250 ml (Personal) & Botol 1000 ml (1 Liter)</td>
+                  </tr>
+                  <tr>
+                    <th class="py-3 pr-4 font-semibold text-espresso-800">Masa Simpan</th>
+                    <td class="py-3 text-espresso-950">5–7 hari di kulkas (suhu 2–4°C)</td>
+                  </tr>
+                  <tr>
+                    <th class="py-3 pr-4 font-semibold text-espresso-800">Status Kehalalan</th>
+                    <td class="py-3 text-espresso-950 font-semibold text-emerald-700">100% Bahan Halal & Tanpa Pengawet</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONI PELANGGAN ================= -->
+    <section class="py-16 bg-espresso-950 text-latte-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-xl mx-auto mb-12">
+          <h2 class="text-2xl sm:text-3xl font-extrabold">Kata Penikmat Mylattegram</h2>
+          <p class="mt-2 text-sm text-latte-300">Kehangatan yang sudah dirasakan di berbagai momen.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <blockquote class="bg-espresso-900 p-6 rounded-2xl border border-white/10">
+            <div class="text-caramel-400 text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-latte-200 leading-relaxed">"Kopi Susu Bapak ini penyelamat waktu kerja dari rumah. Beli yang 1 liter langsung jadi stok 4 hari. Rasanya pas, tidak kemanisan dan kopinya tetap terasa!"</p>
+            <footer class="mt-4 text-xs font-bold text-latte-50">— Nadia R., Jakarta Selatan</footer>
+          </blockquote>
+
+          <blockquote class="bg-espresso-900 p-6 rounded-2xl border border-white/10">
+            <div class="text-caramel-400 text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-latte-200 leading-relaxed">"Sesuai tagline-nya, benar-benar kayak pelukan hangat di mug. Saya paling suka dihangatkan sebentar pas pagi hari. Aman banget di lambung saya."</p>
+            <footer class="mt-4 text-xs font-bold text-latte-50">— Dimas P., Bandung</footer>
+          </blockquote>
+
+          <blockquote class="bg-espresso-900 p-6 rounded-2xl border border-white/10">
+            <div class="text-caramel-400 text-sm mb-3">★★★★★</div>
+            <p class="text-sm text-latte-200 leading-relaxed">"Kemasan 250ml-nya praktis banget buat bekal perjalanan. Pengemasan rapi, segel aman, dan sampai dalam keadaan masih dingin."</p>
+            <footer class="mt-4 text-xs font-bold text-latte-50">— Siti Rahma, Tangerang</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ SECTION (AEO OPTIMIZED) ================= -->
+    <section id="faq" class="py-16 md:py-24 bg-latte-50">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <span class="text-caramel-600 font-bold text-xs uppercase tracking-widest">Tanya Jawab</span>
+          <h2 class="mt-2 text-3xl font-extrabold text-espresso-950">Pertanyaan yang Sering Diajukan</h2>
+          <p class="mt-2 text-sm text-espresso-700">Jawaban singkat dan jelas seputar Kopi Susu Bapak dari Mylattegram.</p>
+        </div>
+
+        <div class="space-y-4">
+          <details class="group bg-white rounded-2xl border border-latte-200 p-6" open>
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-espresso-950 text-base">
+              <span>Apa itu Kopi Susu Bapak dari Mylattegram?</span>
+              <span class="text-caramel-600 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-espresso-700 leading-relaxed">
+              Kopi Susu Bapak adalah produk unggulan Mylattegram berupa kopi susu siap minum dengan perpaduan seimbang antara espresso house blend, susu segar yang creamy, dan rasa manis lembut yang nyaman dinikmati hangat maupun dingin.
+            </p>
+          </details>
+
+          <details class="group bg-white rounded-2xl border border-latte-200 p-6">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-espresso-950 text-base">
+              <span>Berapa lama daya tahan simpan Kopi Susu Bapak?</span>
+              <span class="text-caramel-600 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-espresso-700 leading-relaxed">
+              Karena dibuat segar setiap hari tanpa bahan pengawet, Kopi Susu Bapak bertahan hingga 5–7 hari di dalam lemari pendingin (suhu 2–4°C) dalam kondisi tersegel, dan sebaiknya dihabiskan dalam 24 jam setelah dibuka.
+            </p>
+          </details>
+
+          <details class="group bg-white rounded-2xl border border-latte-200 p-6">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-espresso-950 text-base">
+              <span>Apakah Kopi Susu Bapak Halal dan aman untuk lambung?</span>
+              <span class="text-caramel-600 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-espresso-700 leading-relaxed">
+              Ya, seluruh bahan baku Kopi Susu Bapak halal dan diproses secara higienis. Takaran susunya yang lembut membantu menetralkan keasaman kopi sehingga lebih ramah di lambung.
+            </p>
+          </details>
+
+          <details class="group bg-white rounded-2xl border border-latte-200 p-6">
+            <summary class="flex items-center justify-between cursor-pointer font-bold text-espresso-950 text-base">
+              <span>Bagaimana cara pengiriman agar kopi tetap segar?</span>
+              <span class="text-caramel-600 group-open:rotate-180 transition-transform">▼</span>
+            </summary>
+            <p class="mt-3 text-sm text-espresso-700 leading-relaxed">
+              Pengiriman dilakukan setiap hari menggunakan kurir instan atau sameday dengan kemasan aman sehingga kopi tiba di tangan Anda dalam kondisi dingin dan siap dinikmati.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-espresso-950 text-latte-300 border-t border-white/10 py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="text-center md:text-left">
+        <p class="font-serif italic text-2xl font-bold text-latte-100">Mylattegram</p>
+        <p class="text-xs text-latte-300 mt-1">Coffee is a hug in a mug — Kopi Susu Bapak.</p>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-6 text-sm">
+        <a href="#tentang" class="hover:text-caramel-400 transition">Keunggulan</a>
+        <a href="#varian" class="hover:text-caramel-400 transition">Harga</a>
+        <a href="#spesifikasi" class="hover:text-caramel-400 transition">Detail Produk</a>
+        <a href="#faq" class="hover:text-caramel-400 transition">FAQ</a>
+      </div>
+
+      <p class="text-xs text-latte-300/70">© 2026 Mylattegram. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ================= JAVASCRIPT ================= -->
+  <script>
+    // Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+    });
+
+    // Interactive Product Gallery Switcher
+    function switchProductImage(src, altText, captionTitle, captionDesc, btnElement) {
+      const mainImg = document.getElementById('main-product-img');
+      const titleEl = document.getElementById('gallery-caption-title');
+      const descEl = document.getElementById('gallery-caption-desc');
+      const fallbackEl = document.getElementById('fallback-produk');
+
+      mainImg.classList.remove('hidden');
+      fallbackEl.classList.add('hidden');
+      document.getElementById('missing-filename').textContent = src;
+
+      mainImg.style.opacity = '0.35';
+      setTimeout(() => {
+        mainImg.src = src;
+        mainImg.alt = altText;
+        titleEl.textContent = captionTitle;
+        descEl.textContent = captionDesc;
+        mainImg.style.opacity = '1';
+      }, 140);
+
+      document.querySelectorAll('.gallery-thumb').forEach(thumb => {
+        thumb.classList.remove('ring-2', 'ring-caramel-500', 'opacity-100');
+        thumb.classList.add('opacity-65');
+      });
+      btnElement.classList.add('ring-2', 'ring-caramel-500', 'opacity-100');
+      btnElement.classList.remove('opacity-65');
+    }
+
+    // Order Quantity & WhatsApp Integration
+    const quantities = { '250ml': 1, '1L': 1 };
+    const prices = { '250ml': 22000, '1L': 78000 };
+
+    function updateQty(variant, change) {
+      quantities[variant] = Math.max(1, quantities[variant] + change);
+      document.getElementById(`qty-${variant}`).textContent = quantities[variant];
+    }
+
+    function orderWhatsApp(variant) {
+      // GANTI nomor WhatsApp di bawah ini dengan nomor bisnis Anda (format 628xxx)
+      const phoneNumber = '6281234567890'; 
+      const qty = quantities[variant];
+      const total = (qty * prices[variant]).toLocaleString('id-ID');
+      const productName = variant === '250ml' 
+        ? 'Kopi Susu Bapak (Kemasan 250 ml)' 
+        : 'Kopi Susu Bapak (Kemasan 1 Liter)';
+
+      const message = `Halo Mylattegram! Saya ingin memesan:\n\n` +
+                      `• Produk: *${productName}*\n` +
+                      `• Jumlah: *${qty} botol*\n` +
+                      `• Estimasi Total: *Rp ${total}*\n\n` +
+                      `Mohon info ketersediaan dan pengirimannya. Terima kasih!`;
+
+      const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  </script>
+</body>
+</html>

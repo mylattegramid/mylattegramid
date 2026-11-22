@@ -1,0 +1,6 @@
+{
+  "name": "Mylattegram — Kopi Susu Bapak",
+  "description": "Kopi Susu Bapak dari Mylattegram — perpaduan espresso house blend, susu segar creamy, dan gula aren autentik dalam kemasan 250 ml & 1 Liter. Halal dan tanpa pengawet.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
